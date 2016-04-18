@@ -1,3 +1,4 @@
+#created controllers
 class PagesController < ApplicationController
   def index
   end

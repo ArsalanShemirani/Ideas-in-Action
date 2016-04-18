@@ -11,4 +11,7 @@ class PagesController < ApplicationController
 
   def explore
   end
+  
+  def login
+  end
 end

@@ -15,9 +15,9 @@ user
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#"> <span class="sr-only">(current)</span></a>
+        <li class="active">
           <li class="">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navagation<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Find a Shop</a></li>
               <li role="separator" class="divider"></li>
@@ -35,7 +35,6 @@ user
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.email %><span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="/profile">Profile</a></li>
-                          <li><%= link_to('Edit Profile', edit_user_registration_path) %></li>
                           <li role="separator" class="divider"></li>
                           <li><a href="#">Settings</a></li>
                           <li role="separator" class="divider"></li>
@@ -43,10 +42,10 @@ user
                           <li role="separator" class="divider"></li>
                           <li><a href="#">My Docs</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="#">My Account</a></li>
+                          <li><%= link_to('My Account', edit_user_registration_path) %></li>
                           <li role="separator" class="divider"></li>
                           <!-need to fix-->
-                          <li><%= link_to('Logout', destroy_user_session_path, :method => :DELETE) %></li>
+                          <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
                         </ul>
                   </li>
               </ul>

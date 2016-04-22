@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+#Omniauth Gem
+gem "omniauth-google-oauth2"
 # Devise Gem
 gem 'devise'
 # twitter ui components

@@ -1,0 +1,19 @@
+Ok Khooni
+
+To do: Can we track progress here?
+
+KHooni
+We need to change from sqlite to mysql.
+Work on adding pages to Navbar links. I will start to style later. I just want to be able to navagate using the NAvBar.
+BAckend we should lookat how we are going to upload user docs and see which we can and cannot support to print.<-I have no idea how that works lol
+Look at the cloudprint documentation and see what we need to configure on the frontend.
+check out stripe and see what we need to do to configure/integrate
+
+
+Joseph
+Add Oath2 keys and link to google cloud.
+Add profile settings
+Add Google maps and a connected DB 
+Look at creating Adnmin and User accounts and Views with modified access. 
+Consider forms needed and DB fields to ease data entry. (are there tools?)
+Maybe add Mysql workbench to local machine?
